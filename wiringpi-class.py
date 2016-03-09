@@ -186,3 +186,4 @@ class GPIO(object):
   def piGlowRing(self,*args):
     return piGlowRing(self,*args)
 %}
+

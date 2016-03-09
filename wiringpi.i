@@ -1,4 +1,4 @@
-%module wiringpi2
+%module wiringpi
 
 %{
 #include "WiringPi/wiringPi/wiringPi.h"
@@ -231,4 +231,4 @@ extern int   serialGetchar   (const int fd) ;
 extern uint8_t shiftIn      (uint8_t dPin, uint8_t cPin, uint8_t order) ;
 extern void    shiftOut     (uint8_t dPin, uint8_t cPin, uint8_t order, uint8_t val) ;
 
-%include "wiringpi2-class.py"
+%include "wiringpi-class.py"
